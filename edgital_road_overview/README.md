@@ -21,19 +21,20 @@ Features in the application:
 - [![Leaflet][Leaflet.js]][Leaflet-url]
 - Tailwind
 
-## Getting Started
+## Getting Started (Only run this when docker cannot run the frontend from root directory's instructions)
 
 - Clone or Unzip the repository
 
-- Run `docker-compose build --no-cache`in the root directory
+- Run `npm i`in this directory
 
-- Run `docker-compose up` in the root directory to start the server and application
+- Run `npm run dev` in this directory to start the application
 
-- Navigate to the directed port http://localhost:5174/ (server can be reached under http://localhost:3000/)
+- Server must be running before running the application to view the data, go to /api folder to run the server following the instructions
+- Application will be available under http://localhost:5174/
 
 ### Prerequisites
 
-- docker
+- NPM
 
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/

@@ -35,6 +35,12 @@ Features in the application:
 
 - docker
 
+### (In case docker does not run the frontend)
+
+- If there are problems running the frontend, please go to the individual folders
+- Start with api folder and follow the instructions to get the server running. It can be reached under http://localhost:3000
+- Then go to the edgital_road_overview folder and follow the instructions down below the section, Getting Started, to get the frontend running. It can be reached under http://localhost:5174
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Leaflet.js]: https://img.shields.io/badge/Leaflet-fbfbfb?style=for-the-badge&logo=leaflet&logoColor=b8e365
